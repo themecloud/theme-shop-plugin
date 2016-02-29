@@ -4,7 +4,7 @@
  * Plugin URI: https://www.themecloud.io
  * Description: Integrates Themecloud API with WordPress
  * Author: Alessandro Siragusa
- * Version: 0.1.0
+ * Version: 0.1.1
  *
  * Themecloud is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
  * @package Themecloud
  * @category Core
  * @author Alessandro Siragusa
- * @version 0.1.0
+ * @version 0.1.1
  */
 
 // Exit if accessed directly
