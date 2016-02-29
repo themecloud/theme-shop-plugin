@@ -81,6 +81,10 @@ final class Themecloud {
         return home_url('/', 'relative') . "?themecloud_action=install&theme=$theme&key=$key";
     }
 
+    public static function getFreeDownloadUrl($themeId) {
+        return "https://www.themecloud.io/install-theme/$themeId";
+    }
+
     public static function createHash($key) {
         return hash('sha256', $key . SECURE_AUTH_KEY . self::getApiKey() . self::getUserEmail());
     }
